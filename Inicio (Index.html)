@@ -10,25 +10,25 @@
   <h1>Monserrat Tapia</h1>
   <nav>
     <a href="index.html" class="btn">Inicio</a>
-    <a href="Sobre mi.html" class="btn">Sobre mi</a>
-    <a href="Contacto.html" class="btn">Wiki</a>
+    <a href="sobre-mi.html" class="btn">Sobre mí</a>
+    <a href="contacto.html" class="btn">Wiki</a>
   </nav>
-</header>
+ </header>
 
-<link rel="styles" href="styles.css">
   <main>
     <section>
-<h2>Mi nombre es Monserrat Tapia y soy estudiante de 4to año de Diseño. Tengo 22 años y soy de Iquique.</h2>
+      <h2>Mi nombre es Monserrat Tapia y soy estudiante de 4to año de Diseño. Tengo 22 años y soy de Iquique.</h2>
     </section>
 
     <section>
- <p><strong>Cumpleaños:</strong> 27 de Junio
+      <p><strong>Cumpleaños:</strong> 27 de Junio</p>
+      <p><strong>Taller:</strong> Taller de Tipografía</p>
+      <p><strong>Correo electrónico:</strong> Monserrat.tapia.g@mail.pucv.cl</p>
 
-  <p><strong>Taller:</strong> Taller de Tipografía</p>
-      
-  <p><strong>Correo electrónico:</strong> Monserrat.tapia.g@mail.pucv.cl</p>
-
-<h3> Mi perfil en Casiopea: </h3><a href=https://wiki.ead.pucv.cl/Monserrat_Tapia_Gonzalez> <h3>¡Apreta aquí!</h3> </a>     </section>
+      <h3>Mi perfil en Casiopea:</h3>
+      <h3><a href="https://wiki.ead.pucv.cl/Monserrat_Tapia_Gonzalez" target="_blank">¡Aprieta aquí!</a></h3>
+    </section>
   </main>
 </body>
 </html>
+
