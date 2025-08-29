@@ -1,0 +1,85 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #88E788; /* verde claro */
+  color: #06402B;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a.btn {
+  display: inline-block;
+  padding: 0.6em 1.5em;
+  background-color: #06402B; /* verde oscuro */
+  color: #88E788; /* texto verde claro */
+  font-family: Montserrat, sans-serif;
+  text-decoration: none;
+  border-radius: 999px; /* forma píldora */
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+  margin: 0 0.5rem;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+nav a.btn:hover {
+  background-color: #1C542D; /* verde más claro */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+}
+
+/* Botón de la página actual */
+nav a.btn.current {
+  opacity: 0.6;
+  pointer-events: none; /* no clickeable */
+}
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  color: #1C542D;
+  margin-bottom: 0.5rem;
+}
+
+p, li {
+  color: #06402B;
+  line-height: 1.5;
+}
+
+main {
+  max-width: 700px;
+  width: 100%;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+p a, li a {
+  color: #88E788;          /* enlaces verdes */
+  text-decoration: none;
+}
+
+p a:hover, li a:hover {
+  text-decoration: underline;
+}
+
+main a {
+  color: #1C542D; /* verde claro */
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
